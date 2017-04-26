@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJToolsKit_Example' do
+  pod 'YJToolsKit', :path => '../'
+
+  target 'YJToolsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
