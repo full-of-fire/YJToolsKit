@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJToolsKit'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = '常用工具和分类第三方的一个合集'
 
 # This description is used to generate tags and improve search results.
