@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <SVProgressHUD.h>
+#import "SVProgressHUD.h"
 @interface YJPopupTool : NSObject
 #pragma mark HUD
 /**
