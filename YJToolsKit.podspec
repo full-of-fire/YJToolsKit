@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJToolsKit'
-  s.version          = '1.0.9'
+  s.version          = '1.1.1'
   s.summary          = '常用工具和分类第三方的一个合集'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit','CoreLocation','CoreGraphics'
   s.dependency 'SVProgressHUD'
-  s.dependency 'SDWebImage'
-  s.dependency 'MJExtension'
-  s.dependency 'IQKeyboardManager'
+ 
 end
