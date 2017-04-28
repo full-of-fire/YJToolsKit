@@ -1,0 +1,6 @@
+framework module YJToolsKit {
+  umbrella header "YJToolsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - YJToolsKit (0.1.0)
+
+DEPENDENCIES:
+  - YJToolsKit (from `../`)
+
+EXTERNAL SOURCES:
+  YJToolsKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YJToolsKit: 1ded3ed518acaa7a9186a4a23c42f8b9d7e729b1
+
+PODFILE CHECKSUM: c40f7aa6f43a424a245dc99d27c64379ba23a681
+
+COCOAPODS: 1.2.1
