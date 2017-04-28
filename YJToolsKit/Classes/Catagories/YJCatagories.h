@@ -26,7 +26,7 @@
 #import "NSDate+YJCompare.h"
 #import "NSDictionary+JSONString.h"
 #import "NSDictionary+YJAdd.h"
-#import "NSObject+YJAdd.h"
+
 #import "NSString+Size.h"
 #import "NSString+YJAdd.h"
 #import "NSString+YJEmoji.h"
@@ -34,5 +34,5 @@
 #import "NSString+YJHtml.h"
 #import "NSString+YJMD5.h"
 #import "NSString+YJRegex.h"
-#import "NSBundle+YJAdd.h"
+
 #endif /* YJCatagories_h */
