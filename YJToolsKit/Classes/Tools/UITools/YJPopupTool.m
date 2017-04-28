@@ -7,7 +7,7 @@
 //
 
 #import "YJPopupTool.h"
-#import <SVProgressHUD.h>
+
 #import <UIKit/UIKit.h>
 @interface YJPromptLabel : UILabel
 
