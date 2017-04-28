@@ -1,7 +1,7 @@
-use_frameworks!
+#use_frameworks!
 
 target 'YJToolsKit_Example' do
-  pod 'YJToolsKit', :path => '../'
+  pod 'YJToolsKit'
 
   target 'YJToolsKit_Tests' do
     inherit! :search_paths

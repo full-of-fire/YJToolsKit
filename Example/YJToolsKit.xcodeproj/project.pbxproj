@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C4B129A67F09FA548A3AFEE /* Pods_YJToolsKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4AE50493E05E8466364C29 /* Pods_YJToolsKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		786A97906597BB8B9BB97000 /* Pods_YJToolsKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF0DEB86716010099A4AFB /* Pods_YJToolsKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C19BF34EAA6765A10A6D67D9 /* libPods-YJToolsKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E5635CF978EA63B35939B4 /* libPods-YJToolsKit_Example.a */; };
+		D5752D673E4BB57AF5B784B7 /* libPods-YJToolsKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B94C8C76C29613F832D3A5E /* libPods-YJToolsKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1A633BD4E49D61CCB81E2790 /* Pods-YJToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJToolsKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJToolsKit_Tests/Pods-YJToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32B840248C5280D85A87DCC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5F4AE50493E05E8466364C29 /* Pods_YJToolsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B94C8C76C29613F832D3A5E /* libPods-YJToolsKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJToolsKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YJToolsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJToolsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75802A6FE40069C90C7C2C20 /* YJToolsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJToolsKit.podspec; path = ../YJToolsKit.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BEF0DEB86716010099A4AFB /* Pods_YJToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5960A05C2698A0FB597DE57 /* Pods-YJToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJToolsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJToolsKit_Example/Pods-YJToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B32B8AECB729B487C7469D8B /* Pods-YJToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJToolsKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJToolsKit_Tests/Pods-YJToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D60D96543BD2632B95A04E96 /* Pods-YJToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJToolsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJToolsKit_Example/Pods-YJToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E5635CF978EA63B35939B4 /* libPods-YJToolsKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJToolsKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				786A97906597BB8B9BB97000 /* Pods_YJToolsKit_Example.framework in Frameworks */,
+				C19BF34EAA6765A10A6D67D9 /* libPods-YJToolsKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5C4B129A67F09FA548A3AFEE /* Pods_YJToolsKit_Tests.framework in Frameworks */,
+				D5752D673E4BB57AF5B784B7 /* libPods-YJToolsKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8BEF0DEB86716010099A4AFB /* Pods_YJToolsKit_Example.framework */,
-				5F4AE50493E05E8466364C29 /* Pods_YJToolsKit_Tests.framework */,
+				E3E5635CF978EA63B35939B4 /* libPods-YJToolsKit_Example.a */,
+				3B94C8C76C29613F832D3A5E /* libPods-YJToolsKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

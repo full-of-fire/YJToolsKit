@@ -1,0 +1,1 @@
+../../../YJToolsKit/YJToolsKit/Classes/Catagories/Foundation/NSString+YJAdd.h

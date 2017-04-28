@@ -7,7 +7,8 @@
 //
 
 #import "YJViewController.h"
-
+#import <YJTools.h>
+#import <YJCatagories.h>
 @interface YJViewController ()
 
 @end
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [YJPopupTool showHUDFailWithMessage:@"test"];
 }
 
 - (void)didReceiveMemoryWarning

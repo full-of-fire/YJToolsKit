@@ -1,16 +1,26 @@
 PODS:
-  - YJToolsKit (0.1.0)
+  - IQKeyboardManager (4.0.9)
+  - MJExtension (3.0.13)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
+  - YJToolsKit (1.0.9):
+    - IQKeyboardManager
+    - MJExtension
+    - SDWebImage
+    - SVProgressHUD
 
 DEPENDENCIES:
-  - YJToolsKit (from `../`)
-
-EXTERNAL SOURCES:
-  YJToolsKit:
-    :path: ../
+  - YJToolsKit
 
 SPEC CHECKSUMS:
-  YJToolsKit: 1ded3ed518acaa7a9186a4a23c42f8b9d7e729b1
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  YJToolsKit: e6d4e5ecc7ea9931afb1a76719273d7ff6280ea0
 
-PODFILE CHECKSUM: c40f7aa6f43a424a245dc99d27c64379ba23a681
+PODFILE CHECKSUM: da94d5c653766f1d786270df7be0a88ed42c1b0a
 
 COCOAPODS: 1.2.1
