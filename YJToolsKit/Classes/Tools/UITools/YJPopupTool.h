@@ -110,4 +110,6 @@
  */
 + (void)showPromptWithMessage:(NSString*)message yPostion:(CGFloat)yPostion;
 
++ (void)hidePrompt;
+
 @end

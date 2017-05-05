@@ -227,5 +227,10 @@
     
 }
 
++ (void)hidePrompt {
+
+    [[YJPromptLabel sharedLabel] removeFromSuperview];
+}
+
 
 @end
